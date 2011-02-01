@@ -1,0 +1,4 @@
+names=["Anoop","Arun","Anu","Arnold","Angelina"]
+t_demo={}
+t_demo[names[1][0]]=names[0]
+print(t_demo.values())

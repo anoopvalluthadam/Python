@@ -1,0 +1,7 @@
+str1=("Hello","Anoop")
+str2=("Valluthadam")
+str3=(str1,str2,"hi")
+print (str3)
+print ("\nLength of the touple str1 is %d" %len(str1")
+
+

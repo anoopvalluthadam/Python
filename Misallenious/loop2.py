@@ -1,0 +1,5 @@
+for food in ("meals","Chappathi","Dosa","Idaly"):
+	print (" "+food)
+	if food=="Dosa":
+			print("\n%s is there \n" %food)
+			break

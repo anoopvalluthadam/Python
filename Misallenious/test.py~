@@ -1,0 +1,24 @@
+a='Kitten'
+b='Donut'
+
+a_len=len(a)
+b_len=len(b)
+
+if a_len%2 ==0:
+	div_a_len=a_len/2
+else:
+	div_a_len=a_len/2 +1
+if b_len%2 ==0:
+	div_b_len=b_len/2
+else:
+	div_b_len=b_len/2 +1
+	
+a_str1=a[0:div_a_len]
+a_str2=a[div_a_len:]
+
+b_str1=b[0:div_b_len]
+b_str2=b[div_b_len:]
+
+result=a_str1+b_str1+a_str2+b_str2
+
+print result
